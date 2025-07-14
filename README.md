@@ -34,10 +34,10 @@ OpenWeatherMap API --> Kafka Producer --> Kafka Broker --> Kafka Consumer --> HD
 
 Use the excellent [hadoop-docker-compose](https://github.com/dhzdhd/hadoop-docker-compose) setup:
 
-```bash
+bash
 git clone https://github.com/dhzdhd/hadoop-docker-compose.git
 cd hadoop-docker-compose
-docker-compose up -d
+docker-compose up -d 
 
 ### 2. Access the Spark Container
 
