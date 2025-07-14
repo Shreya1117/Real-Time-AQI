@@ -3,7 +3,7 @@ import requests
 import json
 import time
 
-API_KEY = "eaca68e0f5bcf672a938fee98c3211d6"
+API_KEY = "your_api_key"
 
 producer = KafkaProducer(
     bootstrap_servers='localhost:9092',
@@ -15,6 +15,7 @@ CITIES = {
     "New York": {"lat": 40.7128, "lon": -74.0060},
     "London": {"lat": 51.5074, "lon": -0.1278},
 }
+# Add more cities if required
 
 while True:
     for city, coords in CITIES.items():
