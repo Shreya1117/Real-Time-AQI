@@ -49,15 +49,6 @@ pip install pandas matplotlib seaborn kafka-python requests
 
 ---
 
-## 📁 Project Structure
-
-air_quality_project/
-├── producer.py             # Fetches AQI data from API and sends to Kafka
-├── consumer.py             # Reads Kafka data and writes to HDFS
-├── air_quality_stream.py   # Spark job to clean, analyze, and visualize data
-└── README.md               # Project instructions
-
----
 
 ## 🌐 OpenWeatherMap API Setup
 
