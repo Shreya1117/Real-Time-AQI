@@ -56,15 +56,16 @@ air_quality_project/
 ├── consumer.py             # Reads Kafka data and writes to HDFS
 ├── air_quality_stream.py   # Spark job to clean, analyze, and visualize data
 └── README.md               # Project instructions
+
 ---
 
 ## 🌐 OpenWeatherMap API Setup
 
-    Go to OpenWeatherMap and sign up.
+Go to OpenWeatherMap and sign up.
 
-    Get your API key.
+Get your API key.
 
-    Replace the placeholder in producer.py:
+Replace the placeholder in producer.py:
 
 API_KEY = "your_api_key_here"
 
@@ -92,7 +93,7 @@ This reads data from HDFS, performs analysis using Spark, and visualizes polluta
 
 ---
 
-📚 Dependencies
+## 📚 Dependencies
 
     Python 3.10+
 
